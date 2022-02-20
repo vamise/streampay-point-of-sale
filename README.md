@@ -20,7 +20,7 @@ The Solana blockchain confirms transactions in less than a second and costs on a
 Use the [`@solana/pay` JavaScript SDK](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memotree/master/core) to start accepting payments in your app today.
 
 ### Accept payments in person
-Run the open-source [Fyfy Pay Point of Sale app](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memotree/master/point-of-sale) to start accepting payments in-person.
+Run the open-source [Fyfy Pay - Point of Sale app](https://fyfy-pay-point-of-sale.vercel.app/new?recipient=GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F&label=Fyfy+Pay) to start accepting payments in-person.
 
 ## Getting Involved
 
