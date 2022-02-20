@@ -14,13 +14,6 @@ The Solana blockchain confirms transactions in less than a second and costs on a
 * Crypto Please ([iOS](https://apps.apple.com/us/app/crypto-please/id1559625715), [Android](https://play.google.com/store/apps/details?id=com.pleasecrypto.flutter))
 * FTX ([iOS](https://apps.apple.com/us/app/ftx-trade-btc-eth-shib/id1095564685), [Android](https://play.google.com/store/apps/details?id=com.blockfolio.blockfolio))
 
-### Coming Soon
-
-* Slope
-* Glow
-* Solflare
-* Reactor Wallet
-
 ## How to use FYFY Pay
 
 ### Accept payments in your web app
@@ -32,12 +25,6 @@ Run the open-source [Fyfy Pay Point of Sale app](https://github.com/vamise/fyfy-
 ## Getting Involved
 
 FYFY Pay is an open standard to facilitate commerce on Solana. We are looking for more contributors to help develop the ecosystem. Here are a few ideas if you're looking to get involved.
-
-### Hackathon Projects
-
-The [Solana Riptide Hackathon](https://solana.com/riptide) is happening right now. There's with a dedicated Payments track, presented by Visa.
-
-Here are some [Solana Pay hackathon ideas](https://www.figma.com/community/file/1070574785723157359) to get started thinking about how you can build the future of payments.
 
 ### eCommerce Platform Integrations
 To get as many merchants accepting payments on Solana as possible we need to provide easy ways to set up Fyfy Pay on all eCommerce platforms. 
