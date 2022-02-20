@@ -18,26 +18,26 @@ export class CreateTransactionError extends Error {
 }
 
 /**
- * Optional parameters for creating a Solana Pay transaction.
+ * Optional parameters for creating a Fyfy Pay transaction.
  */
 export interface CreateTransactionParams {
-    /** `splToken` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#spl-token) */
+    /** `splToken` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#spl-token) */
     splToken?: PublicKey;
-    /** `reference` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#reference) */
+    /** `reference` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#reference) */
     reference?: PublicKey | PublicKey[];
     /** `memo` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#memo) */
     memo?: string;
 }
 
 /**
- * Create a Solana Pay transaction.
+ * Create a Fyfy Pay transaction.
  *
  * **Reference** implementation for wallet providers.
  *
  * @param connection - A connection to the cluster.
  * @param payer - `PublicKey` of the payer.
- * @param recipient - `recipient` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#recipient)
- * @param amount - `amount` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#amount)
+ * @param recipient - `recipient` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#recipient)
+ * @param amount - `amount` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#amount)
  * @param {CreateTransactionParams} createTransactionParams - Additional parameters
  * @param createTransactionParams.splToken
  * @param createTransactionParams.reference

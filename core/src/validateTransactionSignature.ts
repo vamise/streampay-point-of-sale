@@ -10,21 +10,21 @@ import {
 import BigNumber from 'bignumber.js';
 
 /**
- * Thrown when a transaction doesn't contain a valid Solana Pay transfer.
+ * Thrown when a transaction doesn't contain a valid Fyfy Pay transfer.
  */
 export class ValidateTransactionSignatureError extends Error {
     name = 'ValidateTransactionSignatureError';
 }
 
 /**
- * Validate that a given transaction signature corresponds with a transaction containing a valid Solana Pay transfer.
+ * Validate that a given transaction signature corresponds with a transaction containing a valid Fyfy Pay transfer.
  *
  * @param connection - A connection to the cluster.
  * @param signature -  The signature to validate.
- * @param recipient - `recipient` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#recipient)
- * @param amount - `amount` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#amount)
- * @param splToken - `splToken` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#spl-token)
- * @param reference -`reference` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#reference)
+ * @param recipient - `recipient` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#recipient)
+ * @param amount - `amount` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#amount)
+ * @param splToken - `splToken` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#spl-token)
+ * @param reference -`reference` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#reference)
  * @param {Finality} finality - A subset of Commitment levels, which are at least optimistically confirmed
  */
 export async function validateTransactionSignature(

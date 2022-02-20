@@ -8,15 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Solana Pay Docs',
-    tagline: 'Solana Pay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.',
-    url: 'https://docs.solanapay.com',
+    title: 'Fyfy Pay Docs',
+    tagline: 'Fyfy Pay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.',
+    url: 'https://docs.fyfypay.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'solana-labs', // Usually your GitHub org/user name.
-    projectName: 'solana-pay', // Usually your repo name.
+    organizationName: 'fyfylabs', // Usually your GitHub org/user name.
+    projectName: 'fyfy-pay', // Usually your repo name.
 
     presets: [
         [
@@ -46,12 +46,12 @@ const config = {
         },
         navbar: {
             logo: {
-                alt: 'Solana Logo',
+                alt: 'Fyfy Logo',
                 src: 'img/logo-horizontal.svg',
                 srcDark: 'img/logo-horizontal-dark.svg',
             },
             items: [{
-                    href: 'https://github.com/solana-labs/solana-pay',
+                    href: 'https://github.com/vamise/fyfy-pay',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -68,15 +68,15 @@ const config = {
                     title: 'Community',
                     items: [{
                             label: 'Discord',
-                            href: 'https://discordapp.com/invite/pquxPsq',
+                            href: 'https://discordapp.com/invite/',
                         },
                         {
                             label: 'Twitter',
-                            href: 'https://twitter.com/solana',
+                            href: 'https://twitter.com/fyfyio',
                         },
                         {
                             label: 'Forums',
-                            href: 'https://forums.solana.com',
+                            href: 'https://forums.fyfy.io',
                         },
                     ],
                 },
@@ -84,11 +84,11 @@ const config = {
                     title: 'More',
                     items: [{
                         label: 'GitHub',
-                        href: 'https://github.com/solana-labs/solana-pay',
+                        href: 'https://github.com/fyfylabs/fyfy-pay',
                     }, ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Solana Foundation`,
+            copyright: `Copyright © ${new Date().getFullYear()} Fyfy.io`,
         },
         prism: {
             theme: lightCodeTheme,

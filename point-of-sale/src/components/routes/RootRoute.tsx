@@ -12,7 +12,7 @@ import { PaymentProvider } from '../contexts/PaymentProvider';
 import { ThemeProvider } from '../contexts/ThemeProvider';
 import { TransactionsProvider } from '../contexts/TransactionsProvider';
 import { FyfyPayLogo } from '../images/FyfyPayLogo';
-import { FIcon } from '../images/FIcon';
+import { SOLIcon } from '../images/SOLIcon';
 import * as css from './RootRoute.module.pcss';
 
 export const RootRoute: FC = () => {
@@ -51,8 +51,8 @@ export const RootRoute: FC = () => {
                                 <ConfigProvider
                                     recipient={recipient}
                                     label={label}
-                                    symbol="FYFY"
-                                    icon={<FIcon />}
+                                    symbol="SOL"
+                                    icon={<SOLIcon />}
                                     decimals={9}
                                     minDecimals={1}
                                     connectWallet={connectWallet}

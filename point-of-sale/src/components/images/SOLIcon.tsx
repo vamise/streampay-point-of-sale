@@ -1,6 +1,6 @@
 import React, { FC, SVGProps } from 'react';
 
-export const FIcon: FC<SVGProps<SVGSVGElement>> = ({ width = 32, height = 32 }) => {
+export const SOLIcon: FC<SVGProps<SVGSVGElement>> = ({ width = 32, height = 32 }) => {
     return (
         <svg
             width={width}
