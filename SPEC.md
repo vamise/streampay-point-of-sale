@@ -65,17 +65,17 @@ Wallets should display the memo to the user. The SPL Memo instruction must be in
 ## Examples
 URL describing a transfer for 1 SOL:
 ```
-solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN?amount=1&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId1234
+solana:GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F?amount=1&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId1234
 ```
 
 URL describing a transfer for 0.01 USDC
 ```
-solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN?amount=0.01&spl-token=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId5678
+solana:GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F?amount=0.01&spl-token=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId5678
 ```
 
 URL describing a generic SOL transfer. The user must be prompted for the exact amount.
 ```
-solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN&label=Michael&memo=4321ABCD
+solana:GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F&label=Michael&memo=4321ABCD
 ```
 
 ## Extensions

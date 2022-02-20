@@ -1,6 +1,6 @@
 # Fyfy Pay
 
-`@solana/pay` is a JavaScript library for facilitating commerce on Fyfy by using a token transfer URL scheme. The URL scheme ensures that no matter the wallet or service used, the payment request must be created and interpreted in one standard way.
+`@fyfy/pay` is a JavaScript library for facilitating commerce on Fyfy by using a token transfer URL scheme. The URL scheme ensures that no matter the wallet or service used, the payment request must be created and interpreted in one standard way.
 
 ## Why use Fyfy Pay
 

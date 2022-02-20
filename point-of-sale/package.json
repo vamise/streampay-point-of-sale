@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@solana/pay-point-of-sale",
+    "name": "@fyfy/pay-point-of-sale",
     "version": "0.0.0",
     "author": "Fyfy Maintainers <maintainers@fyfy.io>",
     "repository": "https://github.com/vamise/fyfy-pay",

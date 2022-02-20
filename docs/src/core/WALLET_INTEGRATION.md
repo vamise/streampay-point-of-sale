@@ -46,7 +46,7 @@ import { parseURL } from '@solana/pay';
  * The parameters needed to create the correct transaction is encoded within the URL
  */
 const url =
-    'solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN?amount=0.01&reference=82ZJ7nbGpixjeDCmEhUcmwXYfvurzAgGdtSMuHnUgyny&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId5678';
+    'solana:GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F?amount=0.01&reference=82ZJ7nbGpixjeDCmEhUcmwXYfvurzAgGdtSMuHnUgyny&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId5678';
 const { recipient, amount, splToken, reference, label, message, memo } = parseURL(url);
 ```
 
@@ -69,7 +69,7 @@ The `payer` **should** be the public key of the current users' wallet.
 import { parseURL, createTransaction } from '@solana/pay';
 
 const url =
-    'solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN?amount=0.01&reference=82ZJ7nbGpixjeDCmEhUcmwXYfvurzAgGdtSMuHnUgyny&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId5678';
+    'solana:GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F?amount=0.01&reference=82ZJ7nbGpixjeDCmEhUcmwXYfvurzAgGdtSMuHnUgyny&label=Michael&message=Thanks%20for%20all%20the%20fish&memo=OrderId5678';
 const { recipient, amount, splToken, reference, label, message, memo } = parseURL(url);
 
 /**

@@ -25,7 +25,7 @@ export interface CreateTransactionParams {
     splToken?: PublicKey;
     /** `reference` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#reference) */
     reference?: PublicKey | PublicKey[];
-    /** `memo` in the [Solana Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#memo) */
+    /** `memo` in the [Fyfy Pay spec](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/master/SPEC.md#memo) */
     memo?: string;
 }
 

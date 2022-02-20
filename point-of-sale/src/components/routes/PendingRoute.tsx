@@ -35,7 +35,7 @@ export const PendingRoute: FC = () => {
                 <div className={css.code}>
                     <QRCode />
                 </div>
-                <div className={css.scan}>Scan this code with your Solana Pay wallet</div>
+                <div className={css.scan}>Scan this code with your Fyfy Pay wallet</div>
                 <div className={css.confirm}>You'll be asked to approve the transaction</div>
             </div>
             <div className={css.footer}>

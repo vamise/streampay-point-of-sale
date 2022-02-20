@@ -1,0 +1,14 @@
+
+
+
+http://localhost:1234?recipient=Your+Merchant+Address&label=Your+Store+Name
+
+
+http://localhost:1234/
+
+
+
+https://solana-labs.github.io/solana-pay/app/new?recipient=GvHeR432g7MjN9uKyX3Dzg66TqwrEWgANLnnFZXMeyyj&label=Solana+Pay
+
+
+http://localhost:1234?recipient=GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F&label=Fyfy+Pay
