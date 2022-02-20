@@ -1,4 +1,4 @@
-# FYFY Pay - Point Of Sale
+# FYFY Pay - Point of Sale
 
 FYFY Pay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.
 
