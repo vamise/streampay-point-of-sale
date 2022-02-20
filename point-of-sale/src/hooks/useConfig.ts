@@ -8,7 +8,7 @@ export interface ConfigContextState {
     splToken: PublicKey | undefined;
     symbol: string;
     icon: ReactElement;
-    decimals: Digits;
+    decimals: Digits; 
     minDecimals: Digits;
     requiredConfirmations: Confirmations;
     connectWallet: boolean;
