@@ -1,4 +1,4 @@
-# FYFY Pay - Point of Sale
+# StreamPay - Point of Sale
 
 FYFY Pay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.
 
@@ -14,7 +14,7 @@ The Solana blockchain confirms transactions in less than a second and costs on a
 * Crypto Please ([iOS](https://apps.apple.com/us/app/crypto-please/id1559625715), [Android](https://play.google.com/store/apps/details?id=com.pleasecrypto.flutter))
 * FTX ([iOS](https://apps.apple.com/us/app/ftx-trade-btc-eth-shib/id1095564685), [Android](https://play.google.com/store/apps/details?id=com.blockfolio.blockfolio))
 
-## How to use FYFY Pay
+## How to use StreamPay 
 
 ### Accept payments in your web app
 Use the [`@solana/pay` JavaScript SDK](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memotree/master/core) to start accepting payments in your app today.
