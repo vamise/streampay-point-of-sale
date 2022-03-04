@@ -1,6 +1,6 @@
 # StreamPay - Point of Sale
 
-FYFY Pay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.
+StreamPay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.
 
 [Read the specification.](SPEC.md)
 
@@ -24,10 +24,10 @@ Run the open-source [Fyfy Pay - Point of Sale app](https://fyfy-pay-point-of-sal
 
 ## Getting Involved
 
-FYFY Pay is an open standard to facilitate commerce on Solana. We are looking for more contributors to help develop the ecosystem. Here are a few ideas if you're looking to get involved.
+StreamPay is an open standard to facilitate commerce on Solana. We are looking for more contributors to help develop the ecosystem. Here are a few ideas if you're looking to get involved.
 
 ### eCommerce Platform Integrations
-To get as many merchants accepting payments on Solana as possible we need to provide easy ways to set up Fyfy Pay on all eCommerce platforms. 
+To get as many merchants accepting payments on Solana as possible we need to provide easy ways to set up StreamPay on all eCommerce platforms. 
 
 Solana Labs has started a reference implementation for Shopify which you can see [here](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memoblob/shopify/shopify) to get a sense of how this might work.
 
