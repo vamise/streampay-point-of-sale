@@ -1,4 +1,4 @@
-# StreamPay - Point of Sale
+# StreamPOS - Point of Sale
 
 StreamPay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.
 
@@ -14,13 +14,13 @@ The Solana blockchain confirms transactions in less than a second and costs on a
 * Crypto Please ([iOS](https://apps.apple.com/us/app/crypto-please/id1559625715), [Android](https://play.google.com/store/apps/details?id=com.pleasecrypto.flutter))
 * FTX ([iOS](https://apps.apple.com/us/app/ftx-trade-btc-eth-shib/id1095564685), [Android](https://play.google.com/store/apps/details?id=com.blockfolio.blockfolio))
 
-## How to use StreamPay 
+## How to use StreamPOS / StreamPay
 
 ### Accept payments in your web app
 Use the [`@solana/pay` JavaScript SDK](https://github.com/vamise/fyfy-pay/blob/master/SPEC.md#memotree/master/core) to start accepting payments in your app today.
 
 ### Accept payments in person
-Run the open-source [Fyfy Pay - Point of Sale app](https://fyfy-pay-point-of-sale.vercel.app/new?recipient=GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F&label=Fyfy+Pay) to start accepting payments in-person.
+Run the open-source [StreamPOS - Point of Sale app](https://stream-pay-point-of-sale.vercel.app/new?recipient=GV11559jEBBXYnVAZkQvVxTb3X7tkWkeFoC5H7jTJs8F&label=Fyfy+Pay) to start accepting payments in-person.
 
 ## Getting Involved
 
@@ -47,6 +47,6 @@ Do you have another idea? Feel free to open an issue to discuss it with the comm
 
 ## License
 
-Fyfy Pay is open source and available under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more info.
+StreamPay is open source and available under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more info.
 
-![Fyfy Pay](Fyfy-pay.png)
+![StreamPay](Fyfy-pay.png)
